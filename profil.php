@@ -102,7 +102,7 @@ qui sont actuellement stockées en base de données. --><?php
 		<main class='container'>
 
 			<form class="formulaire" action="" method="post">
-				<h3>Mdifiez vos informations !</h3>
+				<h3>Modifiez vos infos !</h3>
 				<label for="login">Login:</label>
 				<input type="text" name="login" id="login" 
 					value='<?=$login?>' /> <br />

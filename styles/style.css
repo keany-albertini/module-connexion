@@ -347,9 +347,36 @@ footer
 
 .success 
 {
-  width: 50%;
+  width: 100%;
   padding: 1em;
-  background-color: rgb(14, 224, 14);
+  background-color: darkgreen;
   border-radius: 10px;
   color: white;
+}
+.error-2
+{
+    text-align: center;
+  padding: 1em;
+  background-color: darkred;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px; 
+}
+
+/* TABLE PAGE ADMIN*/
+
+table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 17px 15px #a9a9a9;
+    width: 80%;
+    background-color: white;
+    color: #292c2f;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 2px red;
+}
+td{
+    padding: 20px;
 }

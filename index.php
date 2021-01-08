@@ -10,7 +10,13 @@
 	<body class="body-accueil">
 		<?php require_once("templates/header.php") ?>
 		<main class="'container">
+
 			<h1 class="h1-accueil">LOVE-HEARTH</h1>
+			<?php 
+			if (isset($_SESSION['error'])) 
+			{ 
+				echo "<p class=\"error-2\">" .   $_SESSION['error'] . "</p>";
+			} ?>
 			<article class="article-accueil">
 				<h3>Bienvenue amoureux de la nature !</h3>			
 				<p>Ici, vous pourrez <strong> voyager, découvrir,</strong> sans même bouger de chez vous.<br> 

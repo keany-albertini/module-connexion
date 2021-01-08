@@ -21,7 +21,7 @@
 				?>
 			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
 				<?php 
-					if(isset($_SESSION['admin']))
+					if(isset($_SESSION['status']) == '1')
 						echo "<a itemprop=\"item\" href=\"admin.php\"><span itemprop=\"name\">Admin</span></a><meta itemprop=\"position\" content=\"3\" /></li>" ;  
 				?>	
 			</li>
